@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator </title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <input type="text" id="inputBox" placeholder="0" />
+        <div>
+          <button onclick="clearres()" >AC</button>
+          <button onclick="del()">DEL</button>
+          <button onclick="addvalue('%')">%</button>
+          <button onclick="addvalue('/')">/</button>
+        </div>
+        <div>
+          <button onclick="addvalue('7')">7</button>
+          <button onclick="addvalue('8')">8</button>
+          <button onclick="addvalue('9')">9</button>
+          <button onclick="addvalue('*')">*</button>
+        </div>
+        <div>
+          <button onclick="addvalue('4')">4</button>
+          <button onclick="addvalue('5')">5</button>
+          <button onclick="addvalue('6')">6</button>
+          <button onclick="addvalue('-')">-</button>
+        </div>
+        <div>
+          <button onclick="addvalue('1')">1</button>
+          <button onclick="addvalue('2')">2</button>
+          <button onclick="addvalue('3')">3</button>
+          <button onclick="addvalue('+')">+</button>
+        </div>
+
+        <div>
+          <button onclick="addvalue('00')">00</button>
+          <button onclick="addvalue('0')">0</button>
+          <button onclick="addvalue('.')">.</button>
+          <button onclick="calc()">=</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="calcscript.js"></script>
+  </body>
+</html>
